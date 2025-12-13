@@ -1,0 +1,186 @@
+[
+  {
+    "type": "东北话",
+    "name": "东北老铁",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/东北老铁.png",
+    "voice_type": "BV021_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "东北话",
+    "name": "东北丫头",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/东北丫头.png",
+    "voice_type": "BV020_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "东北话",
+    "name": "方言灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": "【8种】中文、东北、粤语、上海、西安、成都、台普、广西普通话"
+  },
+  {
+    "type": "西安话",
+    "name": "西安佟掌柜",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/西安佟掌柜.png",
+    "voice_type": "BV210_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "西安话",
+    "name": "方言灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "上海话",
+    "name": "沪上阿姐",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/沪上阿姐.png",
+    "voice_type": "BV217_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "上海话",
+    "name": "方言灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "广西普通话",
+    "name": "广西表哥",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/广西表哥.png",
+    "voice_type": "BV213_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "广西普通话",
+    "name": "方言灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "台湾普通话",
+    "name": "甜美台妹",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/甜美台妹.png",
+    "voice_type": "BV025_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "台湾普通话",
+    "name": "台普男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/台普男声.png",
+    "voice_type": "BV227_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "台湾普通话",
+    "name": "方言灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "粤语",
+    "name": "港剧男神",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/港剧男神.png",
+    "voice_type": "BV026_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "粤语",
+    "name": "广东女仔",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/广东女仔.png",
+    "voice_type": "BV424_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "粤语",
+    "name": "方言灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "天津话",
+    "name": "相声演员",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/相声演员.png",
+    "voice_type": "BV212_streaming",
+    "temp": false,
+    "info": ""
+  },
+  {
+    "type": "川渝话",
+    "name": "重庆小伙",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/重庆小伙.png",
+    "voice_type": "BV019_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "川渝话",
+    "name": "四川甜妹儿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/四川甜妹儿.png",
+    "voice_type": "BV221_streaming",
+    "temp": false,
+    "info": ""
+  },
+  {
+    "type": "川渝话",
+    "name": "重庆幺妹儿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/重庆幺妹儿.png",
+    "voice_type": "BV423_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "川渝话",
+    "name": "方言灿灿（成都）",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/方言灿灿（成都）.png",
+    "voice_type": "BV704_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "郑州话",
+    "name": "乡村企业家",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/乡村企业家.png",
+    "voice_type": "BV214_streaming",
+    "temp": false,
+    "info": ""
+  },
+  {
+    "type": "湖南普通话",
+    "name": "湖南妹坨",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/湖南妹坨.png",
+    "voice_type": "BV226_streaming",
+    "temp": true,
+    "info": ""
+  },
+  {
+    "type": "长沙话",
+    "name": "长沙靓女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/长沙靓女.png",
+    "voice_type": "BV216_streaming",
+    "temp": true,
+    "info": ""
+  }
+]

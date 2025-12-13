@@ -1,0 +1,533 @@
+[
+  {
+    "type": "通用场景",
+    "name": "灿灿 2.0",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/灿灿.png",
+    "voice_type": "BV700_V2_streaming",
+    "temp": true,
+    "info": "【22种情感/风格】通用、愉悦、抱歉、嗔怪、开心、愤怒、惊讶、厌恶、悲伤、害怕、哭腔、客服、专业、严肃、傲娇、安慰鼓励、绿茶、娇媚、情感电台、撒娇、瑜伽、讲故事",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "炀炀",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/炀炀.png",
+    "voice_type": "BV705_streaming",
+    "temp": true,
+    "info": "通用、自然对话、愉悦、抱歉、嗔怪、安慰鼓励、讲故事",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "擎苍 2.0",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/擎苍.png",
+    "voice_type": "BV701_V2_streaming",
+    "temp": true,
+    "info": "【10种情感】旁白-舒缓、旁白-沉浸、平和、开心、悲伤、生气、害怕、厌恶、惊讶、哭腔",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "通用女声 2.0",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/通用女声.png",
+    "voice_type": "BV001_V2_streaming",
+    "temp": true,
+    "info": "-",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/灿灿.png",
+    "voice_type": "BV700_streaming",
+    "temp": true,
+    "info": "【22种情感/风格】通用、愉悦、抱歉、嗔怪、开心、愤怒、惊讶、厌恶、悲伤、害怕、哭腔、客服、专业、严肃、傲娇、安慰鼓励、绿茶、娇媚、情感电台、撒娇、瑜伽、讲故事",
+    "language": "【5国】中文、英语、日语、葡语、西语、印尼"
+  },
+  {
+    "type": "通用场景",
+    "name": "超自然音色-梓梓2.0",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/超自然音色-梓梓2.0.png",
+    "voice_type": "BV406_V2_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "超自然音色-梓梓",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/超自然音色-梓梓.png",
+    "voice_type": "BV406_streaming",
+    "temp": true,
+    "info": "【7种情感】通用、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "超自然音色-燃燃2.0",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/超自然音色-燃燃2.0.png",
+    "voice_type": "BV407_V2_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "超自然音色-燃燃",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/超自然音色-燃燃.png",
+    "voice_type": "BV407_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "通用女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/通用女声.png",
+    "voice_type": "BV001_streaming",
+    "temp": true,
+    "info": "【12种情感】通用、开心、悲伤、生气、害怕、厌恶、惊讶、助手、客服、安慰鼓励、广告、讲故事",
+    "language": ""
+  },
+  {
+    "type": "通用场景",
+    "name": "通用男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/通用男声.png",
+    "voice_type": "BV002_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "擎苍",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/擎苍.png",
+    "voice_type": "BV701_streaming",
+    "temp": true,
+    "info": "【10种情感】旁白-舒缓、旁白-沉浸、平和、开心、悲伤、生气、害怕、厌恶、惊讶、哭腔",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "阳光青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/阳光青年.png",
+    "voice_type": "BV123_streaming",
+    "temp": true,
+    "info": "【7种情感】平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "反卷青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/反卷青年.png",
+    "voice_type": "BV120_streaming",
+    "temp": true,
+    "info": "【7种情感】平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "通用赘婿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/通用赘婿.png",
+    "voice_type": "BV119_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "古风少御",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/古风少御.png",
+    "voice_type": "BV115_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "霸气青叔",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/霸气青叔.png",
+    "voice_type": "BV107_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "质朴青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/质朴青年.png",
+    "voice_type": "BV100_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "温柔淑女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/温柔淑女.png",
+    "voice_type": "BV104_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "开朗青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/开朗青年.png",
+    "voice_type": "BV004_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "甜宠少御",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/甜宠少御.png",
+    "voice_type": "BV113_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "有声阅读",
+    "name": "儒雅青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/儒雅青年.png",
+    "voice_type": "BV102_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "智能助手",
+    "name": "甜美小源",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/甜美小源.png",
+    "voice_type": "BV405_streaming",
+    "temp": true,
+    "info": "【5种情感/风格】通用、愉悦、抱歉、专业、严肃",
+    "language": "详见：BV421 天才少女"
+  },
+  {
+    "type": "智能助手",
+    "name": "亲切女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/亲切女声.png",
+    "voice_type": "BV007_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "智能助手",
+    "name": "知性女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/知性女声.png",
+    "voice_type": "BV009_streaming",
+    "temp": true,
+    "info": "【5种情感/风格】通用、愉悦、抱歉、专业、严肃",
+    "language": ""
+  },
+  {
+    "type": "智能助手",
+    "name": "诚诚",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/诚诚.png",
+    "voice_type": "BV419_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "智能助手",
+    "name": "童童",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/童童.png",
+    "voice_type": "BV415_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "智能助手",
+    "name": "亲切男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/亲切男声.png",
+    "voice_type": "BV008_streaming",
+    "temp": true,
+    "info": "【5种情感/风格】通用、愉悦、抱歉、专业、严肃",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "译制片男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/译制片男声.png",
+    "voice_type": "BV408_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "懒小羊",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/懒小羊.png",
+    "voice_type": "BV426_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "清新文艺女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/清新文艺女声.png",
+    "voice_type": "BV428_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "鸡汤女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/鸡汤女声.png",
+    "voice_type": "BV403_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "智慧老者",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/智慧老者.png",
+    "voice_type": "BV158_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "慈爱姥姥",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/慈爱姥姥.png",
+    "voice_type": "BV157_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "说唱小哥",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/说唱小哥.png",
+    "voice_type": "BR001_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "活力解说男",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/活力解说男.png",
+    "voice_type": "BV410_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "影视解说小帅",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/影视解说小帅.png",
+    "voice_type": "BV411_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "解说小帅-多情感",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/解说小帅-多情感.png",
+    "voice_type": "BV437_streaming",
+    "temp": true,
+    "info": "【7种情感】通用、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "影视解说小美",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/影视解说小美.png",
+    "voice_type": "BV412_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "纨绔青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/纨绔青年.png",
+    "voice_type": "BV159_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "直播一姐",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/直播一姐.png",
+    "voice_type": "BV418_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "反卷青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/反卷青年.png",
+    "voice_type": "BV120_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "沉稳解说男",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/沉稳解说男.png",
+    "voice_type": "BV142_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "潇洒青年",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/潇洒青年.png",
+    "voice_type": "BV143_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "阳光男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/阳光男声.png",
+    "voice_type": "BV056_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "活泼女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/活泼女声.png",
+    "voice_type": "BV005_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "视频配音",
+    "name": "小萝莉",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/小萝莉.png",
+    "voice_type": "BV064_streaming",
+    "temp": true,
+    "info": "【7种情感】通用、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "特色音色",
+    "name": "奶气萌娃",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/奶气萌娃.png",
+    "voice_type": "BV051_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "特色音色",
+    "name": "动漫海绵",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/动漫海绵.png",
+    "voice_type": "BV063_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "特色音色",
+    "name": "动漫海星",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/动漫海星.png",
+    "voice_type": "BV417_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "特色音色",
+    "name": "动漫小新",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/动漫小新.png",
+    "voice_type": "BV050_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "特色音色",
+    "name": "天才童声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才童声.png",
+    "voice_type": "BV061_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "广告配音",
+    "name": "促销男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/促销男声.png",
+    "voice_type": "BV401_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "广告配音",
+    "name": "促销女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/促销女声.png",
+    "voice_type": "BV402_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "广告配音",
+    "name": "磁性男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/磁性男声.png",
+    "voice_type": "BV006_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "新闻播报",
+    "name": "新闻女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/新闻女声.png",
+    "voice_type": "BV011_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "新闻播报",
+    "name": "新闻男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/新闻男声.png",
+    "voice_type": "BV012_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "教育场景",
+    "name": "知性姐姐-双语",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/知性姐姐-双语.png",
+    "voice_type": "BV034_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "教育场景",
+    "name": "温柔小哥",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/温柔小哥.png",
+    "voice_type": "BV033_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  }
+]

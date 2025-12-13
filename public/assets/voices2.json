@@ -1,0 +1,299 @@
+[
+  {
+    "type": "美式英语",
+    "name": "慵懒女声-Ava",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/慵懒女声-Ava.png",
+    "voice_type": "BV511_streaming",
+    "temp": true,
+    "info": "【7种情感】通用、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "议论女声-Alicia",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/议论女声-Alicia.png",
+    "voice_type": "BV505_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "情感女声-Lawrence",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/情感女声-Lawrence.png",
+    "voice_type": "BV138_streaming",
+    "temp": true,
+    "info": "【8种情感】旁白、平和、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "美式女声-Amelia",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/美式女声-Amelia.png",
+    "voice_type": "BV027_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "讲述女声-Amanda",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/讲述女声-Amanda.png",
+    "voice_type": "BV502_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "活力女声-Ariana",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/活力女声-Ariana.png",
+    "voice_type": "BV503_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "活力男声-Jackson",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/活力男声-Jackson.png",
+    "voice_type": "BV504_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "美式英语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": "【8国】中文、英语、日语、葡语、西语、印尼语、越南语、泰语"
+  },
+  {
+    "type": "美式英语",
+    "name": "Stefan",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/Stefan.png",
+    "voice_type": "BV702_streaming",
+    "temp": true,
+    "info": "",
+    "language": "【8国】中文、英语、日语、葡语、西语、印尼语"
+  },
+  {
+    "type": "美式英语",
+    "name": "天真萌娃-Lily",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天真萌娃-Lily.png",
+    "voice_type": "BV506_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "英式英语",
+    "name": "亲切女声-Anna",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/亲切女声-Anna.png",
+    "voice_type": "BV040_streaming",
+    "temp": true,
+    "info": "【7种情感】通用、开心、悲伤、生气、害怕、厌恶、惊讶",
+    "language": ""
+  },
+  {
+    "type": "澳洲英语",
+    "name": "澳洲男声-Henry",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/澳洲男声-Henry.png",
+    "voice_type": "BV516_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "元气少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/元气少女.png",
+    "voice_type": "BV520_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "萌系少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/萌系少女.png",
+    "voice_type": "BV521_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "气质女声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/气质女声.png",
+    "voice_type": "BV522_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "Stefan",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/Stefan.png",
+    "voice_type": "BV702_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/灿灿.png",
+    "voice_type": "BV700_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "日语",
+    "name": "日语男声",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/日语男声.png",
+    "voice_type": "BV524_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "葡萄牙语",
+    "name": "活力男声Carlos（巴西地区）",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/活力男声Carlos（巴西地区）.png",
+    "voice_type": "BV531_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "葡萄牙语",
+    "name": "活力女声（巴西地区）",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/活力女声（巴西地区）.png",
+    "voice_type": "BV530_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "葡萄牙语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "葡萄牙语",
+    "name": "Stefan",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/Stefan.png",
+    "voice_type": "BV702_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "葡萄牙语",
+    "name": "灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/灿灿.png",
+    "voice_type": "BV700_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "西班牙语",
+    "name": "气质御姐（墨西哥地区）",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/气质御姐（墨西哥地区）.png",
+    "voice_type": "BV065_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "西班牙语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "西班牙语",
+    "name": "Stefan",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/Stefan.png",
+    "voice_type": "BV702_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "西班牙语",
+    "name": "灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/灿灿.png",
+    "voice_type": "BV700_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "泰语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "越南语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "印尼语",
+    "name": "天才少女",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/天才少女.png",
+    "voice_type": "BV421_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "印尼语",
+    "name": "Stefan",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/Stefan.png",
+    "voice_type": "BV702_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  },
+  {
+    "type": "印尼语",
+    "name": "灿灿",
+    "avatar": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_hz_ihsph/ljhwZthlaukjlkulzlp/portal/bigtts/avatar/灿灿.png",
+    "voice_type": "BV700_streaming",
+    "temp": true,
+    "info": "",
+    "language": ""
+  }
+]
