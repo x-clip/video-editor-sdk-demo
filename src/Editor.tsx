@@ -73,30 +73,30 @@ const Editor = (props: Props) => {
           className: "login-target",
           Component: () => <a>login</a>,
         },
-        exportButtonConfig: {
-          id: "export-button",
-          className: "export-button",
-          Component: (props: any) => (
-            <Button
-              onClick={() => {
-                console.log("export", props);
-                window.open(
-                  `/export?params=${JSON.stringify({
-                    resolution: "720P",
-                    fps: 30,
-                    format: "mp4",
-                    appid: params.id,
-                    token: token,
-                  })}`,
-                  "_blank",
-                  "width=600,height=400,top=100,left=100,scrollbars=yes"
-                );
-              }}
-            >
-              export
-            </Button>
-          ),
-        },
+        // exportButtonConfig: {
+        //   id: "export-button",
+        //   className: "export-button",
+        //   Component: (props: any) => (
+        //     <Button
+        //       onClick={() => {
+        //         console.log("export", props);
+        //         window.open(
+        //           `/export?params=${JSON.stringify({
+        //             resolution: "720P",
+        //             fps: 30,
+        //             format: "mp4",
+        //             appid: params.id,
+        //             token: token,
+        //           })}`,
+        //           "_blank",
+        //           "width=600,height=400,top=100,left=100,scrollbars=yes"
+        //         );
+        //       }}
+        //     >
+        //       export
+        //     </Button>
+        //   ),
+        // },
       });
       videoRef.current.init();
     }
