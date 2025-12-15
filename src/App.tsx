@@ -8,6 +8,7 @@ import Export from './Export';
 function App() {
   return (
     <Routes>
+      <Route path="/editor/export" element={<Export />} />
       <Route path="/editor/:id" element={<Editor />} />
       <Route path="/editor" element={<Editor />} />
       <Route path="/export" element={<Export />} />
