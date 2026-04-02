@@ -1,15 +1,62 @@
 import { MovieData, PluginConfig } from '@video/core/src/react-pixi/types/data';
 
+export interface AiVideoParams {
+  task_type: string;
+  params: {
+    model: string;
+    content: {
+      type: 'text';
+      text: string;
+    }[];
+    options: {
+      ratio: string;
+      duration: number;
+      fps: number;
+      resolution: string;
+      seed: number; // 默认是-1
+    };
+  };
+}
+
+export interface AiImageParams {
+  task_type: string;
+  params: {
+    image_url: string;
+    driving_video_info: {
+      store_type: number; // 默认是0
+      video_url: string;
+    };
+  };
+}
+
 export interface VideoEditorSDKParams {
   target: HTMLDivElement;
   appid?: string;
   token?: string;
+  // 水印配置
+  watermark?: IWatermark;
   userInfo?: UserInfo;
+  movieData?: MovieData; // 选填二选一，工程数据，工程数据和作品ID必须传入一个，会优先读取工程数据，如果没有传入工程数据，会通过appid去api server 去获取工程数据
   workerPath?: string; // worker资源地址： decode.worker.js  gif.worker.js
   apiServer?: APIServer;
   plugins?: PluginConfig[];
   resourcesHost?: string;
   sides?: SideItem[] | null; // 侧边栏
+  saveAppCallback?: (res: any) => void; // 保存的回调
+  exConfig?: {
+    mobileUpload?: boolean; // 是否移动端上传
+    // 最大媒体轨道数量
+    maxMediaTrackNum: number;
+    // 支持多语言
+    supportLanguage: boolean;
+    // 显示项目按钮
+    showProjectButton: boolean;
+    logoLink?: string;
+    // 自定义logo链接
+    logoOnClick?: () => void; // 如果填写了，logoLink失效
+    // 自定义logo
+    logo: (themeType: 'light' | 'dark') => string;
+  };
   loginButtonConfig?: {
     id: string; // 容器的ID
     className: string; // 容器的类名
@@ -163,6 +210,19 @@ export interface APIServer {
       jsonUrl: string;
     };
   }) => Promise<[{ url: string }, Err]>;
+
+  // 获取AI视频生成任务列表
+  getAiTaskList: (params: PageParams) => Promise<[any, Err]>;
+  // 删除AI视频生成任务
+  deleteAiTask: (ids: string[]) => Promise<[string, Err]>;
+  // 创建AI视频生成任务
+  createAiTask: (params: st.AiVideoParams | st.AiImageParams) => Promise<[any, Err]>;
+  // 轮训AI视频生成任务状态
+  seekAiTaskStatus: (ids: string[]) => Promise<[any, Err]>;
+
+  // 轮训上传状态
+  seekVideoReplayStatus: (ids: string[]) => Promise<[any, Err]>;
+
   // 更新作品
   updateApp: (params: UpdateAppParams) => Promise<[string, Err]>;
   // 删除作品
@@ -176,11 +236,20 @@ export interface APIServer {
   // 获取素材的分类
   getMaterialTypes: (type: string) => Promise<[{ name: string; id: string }[], Err]>;
   // 获取素材
-  getMaterials: (params: MaterialParams) => Promise<[{ id: string; name: string }[], Err]>;
+  getMaterials: (params: MaterialParams) => Promise<
+    [
+      {
+        data: { id: string; name: string; urls: { url: string; thumb: string } }[];
+        current_page: number;
+        total: number;
+      },
+      Err,
+    ]
+  >;
   // 收藏元素
   collect: (params: { source_id: string; type: string }) => Promise<[string, Err]>;
   // 取消收藏
-  cancelCollect: (sourceIds: string[]) => Promise<[string, Err]>;
+  cancelCollect: (sourceIds: string[], type: string) => Promise<[string, Err]>;
   // 收藏列表
   getCollects: (params: CollectParams) => Promise<[{ id: string; name: string }[], Err]>;
   // 上传base64图片
@@ -188,7 +257,7 @@ export interface APIServer {
   // 表单上传
   formUpdate: (params: FormData) => Promise<[{ storage_path: string }, Err]>;
   // 获取用户素材
-  getUserMaterial: (params: UserMaterialParams) => Promise<[{ data: MaterialItemRes[]; total: number }, Err]>;
+  getUserMaterial: (params: MaterialParams) => Promise<[{ data: MaterialItemRes[]; total: number }, Err]>;
   // 获取用户的素材分类
   getUserMaterialType: (
     params: UserMaterialTypeParams,

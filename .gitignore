@@ -29,4 +29,8 @@ stats.html
 *.sln
 *.sw?
 
+fonts
+batchOtfToWoff.js
+downFonts.js
+
 assets-ext

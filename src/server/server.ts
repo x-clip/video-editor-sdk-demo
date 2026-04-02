@@ -1,16 +1,28 @@
-import BasicService from './BasicService';
-import type * as st from '../sdk/sdk.d';
+import BasicService from "./BasicService";
+import type * as st from "../sdk/sdk.d";
 
 class Server extends BasicService {
+
+  constructor() {
+    super();
+    this._setRqHeaderToken(localStorage.getItem("token") || "");
+  }
   /**
    * @desc 创建视频
    */
   createApp = (data: st.CreateAppParams) => {
-    return this.post('/api/v1/user/apps/create', data);
+    return this.post("/api/v1/user/apps/create", data);
+  };
+
+  /**
+   * @desc 退出登录
+   */
+  logout = () => {
+    return this.post("/api/v1/account/logout");
   };
 
   getUserInfo = () => {
-    return this.get('/api/v1/account/info');
+    return this.get("/api/v1/account/info");
   };
 
   /**
@@ -18,20 +30,23 @@ class Server extends BasicService {
    * @param {string} id
    * @returns
    */
-  getAppData = (id: string) => this.get('/api/v1/user/apps/info', { params: { id } });
+  getAppData = (id: string) =>
+    this.get("/api/v1/user/apps/info", { params: { id } });
   /**
    * 删除作品
    * @param {*} id
    * @returns
    */
-  deleteApp = (id: string) => this.post('/api/v1/user/apps/delete', { params: { id } });
+  deleteApp = (id: string) =>
+    this.post("/api/v1/user/apps/delete", { params: { id } });
   /**
    * 更新草稿
    * @param {*} id
    * @param {*} params
    * @returns
    */
-  updateApp = (params: st.UpdateAppParams) => this.post('/api/v1/user/apps/update', params);
+  updateApp = (params: st.UpdateAppParams) =>
+    this.post("/api/v1/user/apps/update", params);
 
   /**
    * 上传base64图片
@@ -42,9 +57,9 @@ class Server extends BasicService {
     return this.post(`/api/v1/common/upload/base64`, {
       ...params,
       is_original_name: 0,
-      prefix_path: '/uploads',
-      disk: 'oss',
-      client: 'public',
+      prefix_path: "/uploads",
+      disk: "oss",
+      client: "public",
     });
   };
 
@@ -54,9 +69,9 @@ class Server extends BasicService {
    * @param from：用户资源或者是系统资源
    * @returns
    */
-  videoReplay = (id: string, from: 'user' | 'system' | 'other' | 'admin') => {
+  videoReplay = (id: string, from: "user" | "system" | "other" | "admin") => {
     return this.post(`/api/v1/common/materialJobs/reverse`, {
-      source: from === 'user' ? 'user_material' : 'material',
+      source: from === "user" ? "user_material" : "material",
       source_id: id,
     });
   };
@@ -87,8 +102,8 @@ class Server extends BasicService {
       transition: 318,
     };
     return this.get(`/api/v1/common/type-items/page`, {
-      params: { type_id: typeMap[type] || '', page_size: 999 },
-    }).then(res => {
+      params: { type_id: typeMap[type] || "", page_size: 999 },
+    }).then((res) => {
       const [re, err] = res;
       return [re.data, err];
     });
@@ -99,17 +114,19 @@ class Server extends BasicService {
    * @returns
    */
   getTemplateTypes = () => {
-    return this.get(`/api/v1/template/categories/tree`, { params: { page_size: 99 } });
+    return this.get(`/api/v1/template/categories/tree`, {
+      params: { page_size: 99 },
+    });
   };
 
   /**
    * 获取素材
    */
   getMaterials = (params: st.MaterialParams) => {
-    if (params.type === 'video') {
+    if (params.type === "video") {
       params.convert_status = 2;
     }
-    return this.get('/api/v1/materials/page', { params });
+    return this.get("/api/v1/materials/page", { params });
   };
 
   /**
@@ -118,14 +135,14 @@ class Server extends BasicService {
    * @returns
    */
   getTemplates = (params: st.TemplateParams) => {
-    return this.get('/api/v1/templates/page', {
+    return this.get("/api/v1/templates/page", {
       params: {
         ...params,
       },
-    }).then(arg => {
+    }).then((arg) => {
       const [res, err] = arg;
-      res.data.forEach(d => {
-        d.type = 'template';
+      res.data.forEach((d) => {
+        d.type = "template";
       });
       return [res, err];
     });
@@ -137,8 +154,8 @@ class Server extends BasicService {
   };
 
   // 取消收藏
-  collectCancle = (source_id: Array<string>) => {
-    return this.post(`/api/v1/user/collects/cancel`, { source_id });
+  cancleCollect = (source_id: Array<string>, type: string) => {
+    return this.post(`/api/v1/user/collects/cancel`, { source_id, type });
   };
 
   // 获取收藏列表
@@ -148,7 +165,11 @@ class Server extends BasicService {
 
   // 表单上传
   formUpdate = (formdata: FormData) => {
-    return this.post(`/api/v1/common/upload/form`, formdata);
+    return this.post(`/api/v1/common/upload/form`, formdata, {
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    });
   };
 
   // 获取用户素材
@@ -162,11 +183,12 @@ class Server extends BasicService {
    * @param {object} params
    * @returns
    */
-  getUserMaterialType = (params: { type: string }) => this.get('/api/v1/user/categories/page', { params });
+  getUserMaterialType = (params: { type: string }) =>
+    this.get("/api/v1/user/categories/page", { params });
 
   // 删除用户素材
   deleteUserMaterial = (ids: string[]) => {
-    console.log('批量删除', ids);
+    console.log("批量删除", ids);
     return this.post(`/api/v1/user/materials/delete`, { id: ids });
   };
 
@@ -189,14 +211,12 @@ class Server extends BasicService {
 
   // 云合成
   createTask = (data: {
-    source: 'user_app';
+    source: "user_app";
     source_id: string;
     params: {
       fps: number;
       resolution: string;
       jsonUrl: string;
-      // storageUrl: '/videos/1/output.mp4';
-      // callback: 'http://localhost:8000/api/callback';
     };
   }) => {
     return this.post(`/api/v1/user/app/tasks/create`, data);
@@ -220,15 +240,15 @@ class Server extends BasicService {
 
   // tts
   createTTS = (params: st.CreateTTSParams) => {
-    return this.post('/api/v1/common/tts/huoshan', params);
+    return this.post("/api/v1/common/tts/huoshan", params);
   };
 
   // ai字幕
   createCaption = (url: string) => {
-    return this.post('/api/v1/common/filetrans/huoshan', {
+    return this.post("/api/v1/common/filetrans/huoshan", {
       audio: {
-        format: 'mp3',
-        codec: 'pcm',
+        format: "mp3",
+        codec: "pcm",
       },
       url: url,
     });
@@ -236,7 +256,7 @@ class Server extends BasicService {
 
   // 字幕任务
   seekCaptionTask = (taskId: string) => {
-    return this.get(`/api/v1/common//filetrans/huoshan_info?TaskId=${taskId}`);
+    return this.get(`/api/v1/common/filetrans/huoshan_info?TaskId=${taskId}`);
   };
 }
 
@@ -258,7 +278,7 @@ export async function getItems(
     category_id?: string;
   },
   items: any[],
-  apiServer: (n: any) => Promise<[any, string | null]>,
+  apiServer: (n: any) => Promise<[any, string | null]>
 ) {
   let res: { data: any[]; total: number }, err: any;
   [res, err] = await apiServer({
@@ -291,19 +311,22 @@ export async function getItems(
         if (d.material) {
           d = d.material;
         }
-        const size = { width: d.width || d.attrs?.width || 1920, height: d.height || d.attrs?.height || 1080 };
+        const size = {
+          width: d.width || d.attrs?.width || 1920,
+          height: d.height || d.attrs?.height || 1080,
+        };
         switch (d.type) {
-          case 'audio':
+          case "audio":
             size.width = 100;
             size.height = 20;
             break;
-          case 'effect':
-          case 'text':
-          case 'filter':
+          case "effect":
+          case "text":
+          case "filter":
             size.width = 100;
             size.height = 100;
             break;
-          case 'transition':
+          case "transition":
             size.width = 100;
             size.height = 70;
             break;

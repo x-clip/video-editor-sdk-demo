@@ -8,3 +8,4 @@ declare module '*.svg' {
 }
 
 declare module '*.js';
+declare module 'pubsub-js';

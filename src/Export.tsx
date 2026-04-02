@@ -1,24 +1,24 @@
-import { Button, Progress, Toast } from '@douyinfe/semi-ui';
-import React, { useEffect, useRef, useState } from 'react';
-import { util } from './utils';
-import { config } from './config';
-import styles from './export.module.less';
-import axios from 'axios';
-import { server } from './server/server';
-import { exportMovie } from './sdk/videoEditorSDK.react.es.min.js';
+import { Button, Progress, Toast } from "@douyinfe/semi-ui";
+import { useEffect, useRef, useState } from "react";
+import { util } from "./utils";
+import { config } from "./config";
+import styles from "./export.module.less";
+import axios from "axios";
+import { server } from "./server/server";
+import { exportMovie } from "./sdk/videoEditorSDK.react.es.min.js";
 
 type Props = {};
 
 const Export = (props: Props) => {
   const [data, setData] = useState(null);
   const me = useRef<any>();
-  let initValues = util.getUrlQuery('params') as {
+  let initValues = util.getUrlQuery("params") as {
     name: string;
     appid: string;
-    resolution: '720P' | '1080P';
+    resolution: "720P" | "1080P";
     fps: number;
     token: string;
-    format: 'mp4' | 'mp3' | 'gif';
+    format: "mp4" | "mp3" | "gif";
     gifFps?: number;
     gifSpeed?: number;
     gifWidth?: number;
@@ -32,7 +32,7 @@ const Export = (props: Props) => {
     }
   }
   const [step, setStep] = useState(0);
-  const [mp4URL, setMp4URL] = useState('');
+  const [mp4URL, setMp4URL] = useState("");
   const [progress, setProgress] = useState<{
     eachSourceName: string;
     eachSourceLoad: number;
@@ -41,21 +41,23 @@ const Export = (props: Props) => {
     encoderVideo: number;
   }>({
     eachSourceLoad: 0,
-    eachSourceName: '',
+    eachSourceName: "",
     sourceLoad: 0,
     encoderAudio: 0,
     encoderVideo: 0,
   });
 
   useEffect(() => {
-    console.log('initValues', initValues);
+    console.log("initValues", initValues);
     server._setRqHeaderToken(initValues.token);
     server.getAppData(initValues.appid).then(async (r: any) => {
       const [res, err] = r;
       if (!err) {
-        const jdata = (await axios.get(`${config.resourcesHost}/${res.url}?t=` + +new Date())) as any;
+        const jdata = (await axios.get(
+          `${config.resourcesHost}/${res.url}?t=` + +new Date()
+        )) as any;
         // const data = util.reJSON(jdata);
-        console.log('jddddd', jdata);
+        console.log("jddddd", jdata);
         setData(jdata.data);
       } else {
         Toast.error(err);
@@ -81,14 +83,24 @@ const Export = (props: Props) => {
           {step === 1 && (
             <>
               <div>
-                <Progress percent={~~(progress.sourceLoad * 100)} showInfo type="line" width={300} />
+                <Progress
+                  percent={~~(progress.sourceLoad * 100)}
+                  showInfo
+                  type="line"
+                  width={300}
+                />
                 <span className={styles.name}>
                   加载进度
                   {~~(progress.sourceLoad * 100)}%
                 </span>
               </div>
               <div>
-                <Progress percent={~~(progress.encoderVideo * 100)} showInfo type="line" width={300} />
+                <Progress
+                  percent={~~(progress.encoderVideo * 100)}
+                  showInfo
+                  type="line"
+                  width={300}
+                />
                 <span className={styles.name}>
                   编码进度
                   {~~(progress.encoderVideo * 100)}%
@@ -98,7 +110,8 @@ const Export = (props: Props) => {
                 {progress.sourceLoad !== 1 ? (
                   <span className={styles.sourceLoad}>
                     资源加载：
-                    {progress.eachSourceName}({~~(progress.eachSourceLoad * 100)}%)
+                    {progress.eachSourceName}(
+                    {~~(progress.eachSourceLoad * 100)}%)
                   </span>
                 ) : (
                   <span className={styles.sourceLoad}>
@@ -108,13 +121,17 @@ const Export = (props: Props) => {
                           合成成功
                           <br />
                           <br />
-                          <a className={styles.down} download={initValues.name + '.mp4'} href={mp4URL}>
+                          <a
+                            className={styles.down}
+                            download={initValues.name + ".mp4"}
+                            href={mp4URL}
+                          >
                             下载
                           </a>
                         </p>
                       </>
                     ) : (
-                      '合成中，请勿关闭此窗口...'
+                      "合成中，请勿关闭此窗口..."
                     )}
                   </span>
                 )}
@@ -122,7 +139,7 @@ const Export = (props: Props) => {
             </>
           )}
           {step === 0 && data && (
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: "center" }}>
               <Button
                 size="large"
                 type="primary"
@@ -130,28 +147,32 @@ const Export = (props: Props) => {
                 style={{ fontSize: 16, padding: 25 }}
                 onClick={() => {
                   exportMovie({
-                    format: 'mp4',
+                    format: "mp4",
                     fps: 30,
-                    resolution: '720P',
+                    resolution: "720P",
+                    exportName: 'xxx.mp4',
                     data,
+                    workerPath: config.workerPath, // 选填，worker 路径，默认是当前目录
+                    EModuleEffectSourcePath: config.EModuleEffectSourcePath, // 特效资源模块加载路径
+                    resourcesHost: config.resourcesHost, // 资源加载的host
                     onBefore: async (obj: any) => {
                       setStep(1);
-                      setMp4URL('');
+                      setMp4URL("");
                       setProgress({
                         eachSourceLoad: 0,
-                        eachSourceName: '',
+                        eachSourceName: "",
                         sourceLoad: 0,
                         encoderAudio: 0,
                         encoderVideo: 0,
                       });
-                      console.log('onBefore', obj);
+                      console.log("onBefore", obj);
                     },
                     onFinish: async (obj: any) => {
                       setMp4URL(obj.url);
-                      console.log('onFinish', obj);
+                      console.log("onFinish", obj);
                     },
                     onProgress: async (obj: any) => {
-                      console.log('onProgress', obj);
+                      console.log("onProgress", obj);
                       setProgress(obj);
                     },
                   });
@@ -160,7 +181,9 @@ const Export = (props: Props) => {
               >
                 选择文件夹
               </Button>
-              <p className={styles.tip}>导出完成后，会在指定文件夹生成 mp4 文件</p>
+              <p className={styles.tip}>
+                导出完成后，会在指定文件夹生成 mp4 文件
+              </p>
             </div>
           )}
         </div>

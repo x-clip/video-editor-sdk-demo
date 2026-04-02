@@ -5,7 +5,7 @@ const config = {
   EModuleEffectSourcePath: 'https://cdn.h5ds.com/assets/effectcanvas/',
   prefix: 'video', // 项目前缀，用于设置localStroage的名称
   resourcesHost: 'https://cdn.h5ds.com', // CDN资源路径
-  workerPath: '/worker',
+  workerPath: '/assets/worker',
   host: 'https://video.h5ds.com', // 二维码扫描有用到
   basename: 'editor', // history路由前缀
   loginSuccessLink: '/',

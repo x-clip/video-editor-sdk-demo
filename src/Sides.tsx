@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   UploadOne,
   PictureOne,
@@ -13,17 +12,17 @@ import {
   TextMessage,
   Page,
 } from '@icon-park/react';
-import Custom from './Custom.js';
+import Custom from './Custom';
 
 const fill = 'var(--theme-icon)';
 export const sides = [
-  {
-    icon: <Page theme="outline" size="24" fill={fill} />,
-    type: 'custom',
-    name: '自定义',
-    enName: 'Custom',
-    panel: Custom,
-  },
+  // {
+  //   icon: <Page theme="outline" size="24" fill={fill} />,
+  //   type: 'custom',
+  //   name: '自定义',
+  //   enName: 'Custom',
+  //   panel: Custom,
+  // },
   {
     icon: <Page theme="outline" size="24" fill={fill} />,
     type: 'template',

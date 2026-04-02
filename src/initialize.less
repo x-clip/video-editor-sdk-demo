@@ -123,7 +123,13 @@ body {
   }
 }
 
-#root {
+// #root {
+//   width: 100vw;
+//   height: 100vh;
+//   // overflow: hidden;
+// }
+
+#video-container {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -145,13 +151,17 @@ body {
 }
 
 .scroll::-webkit-scrollbar:vertical:hover {
-  background: var(--scrollbar-bottom-btn) 0% calc(100% - 3px) / contain no-repeat,
-    var(--scrollbar-top-btn) 0% calc(0% + 3px) / contain no-repeat, var(--scroll);
+  background:
+    var(--scrollbar-bottom-btn) 0% calc(100% - 3px) / contain no-repeat,
+    var(--scrollbar-top-btn) 0% calc(0% + 3px) / contain no-repeat,
+    var(--scroll);
 }
 
 .scroll::-webkit-scrollbar:horizontal:hover {
-  background: var(--scrollbar-right-btn) calc(100% - 3px) 0% / contain no-repeat,
-    var(--scrollbar-left-btn) calc(0% + 3px) 0% / contain no-repeat, var(--scroll);
+  background:
+    var(--scrollbar-right-btn) calc(100% - 3px) 0% / contain no-repeat,
+    var(--scrollbar-left-btn) calc(0% + 3px) 0% / contain no-repeat,
+    var(--scroll);
 }
 
 .scroll::-webkit-scrollbar-thumb {
